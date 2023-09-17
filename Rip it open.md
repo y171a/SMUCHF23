@@ -3,8 +3,11 @@
 The mission is to crack a password protected ZIP file.
 ## Write Up
 **Vulnerability**
+
 This is a password protected ZIP file. All password protected security mechanism is vulnerable to brute-force and dictionary attacks.
+
 **Exploit**
+
 As learnt during the lessons, I attempted to use `zip2john` for this task. Thus I inputted the code below in my Terminal on Kali which returned an output that suggested that the hash was successfully generated.
 ```
 $ zip2john tryOpenMeHehe.zip > hash.txt
@@ -26,5 +29,5 @@ hellokitty (tryOpenMeHehe.zip/flag.txt)
 Use the "-- show" option to display all of the cracked passwords reliably
 Session completed.
 ```
-I then used the password returned to open the flag.txt file successfully to return the password of
+The password returned was used to open the flag.txt file successfully to return the password of
 `CHF{z1p_2_JoHn_th3_r1pp3r)`
