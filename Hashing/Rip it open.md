@@ -29,5 +29,5 @@ hellokitty (tryOpenMeHehe.zip/flag.txt)
 Use the "-- show" option to display all of the cracked passwords reliably
 Session completed.
 ```
-The password returned was used to open the flag.txt file successfully to return the password of
-`CHF{z1p_2_JoHn_th3_r1pp3r)`
+The password returned (hellokitty) was used to open the flag.txt file successfully to return the password of
+`CHF{z1p_2_JoHn_th3_r1pp3r}`
